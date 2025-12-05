@@ -1,0 +1,4 @@
+2025-12-05 03:00:26.352874-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Valor demasiado largo para la columna "DESCRIPCION CHARACTER VARYING(255)": "U&'Un suero con Niacinamida que ayuda a controlar los niveles de oleosidad en la... (627)"
+Value too long for column "DESCRIPCION CHARACTER VARYING(255)": "U&'Un suero con Niacinamida que ayuda a controlar los niveles de oleosidad en la... (627)"; SQL statement:
+insert into producto (categoria,descripcion,imagen_url,nombre,precio,stock,id) values (?,?,?,?,?,?,default) [22001-232]
